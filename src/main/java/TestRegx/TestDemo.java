@@ -1,4 +1,4 @@
-package com.tc;
+package TestRegx;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -54,7 +54,6 @@ public class TestDemo {
         List<String> stringList = new ArrayList<>();
         Pattern pattern = Pattern.compile("<item>(.+?)</item>");
         Matcher m = pattern.matcher(string);
-        StringBuffer sb = new StringBuffer();
         while (m.find()) {
             stringList.add(m.group(1));
         }
