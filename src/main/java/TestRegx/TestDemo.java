@@ -7,11 +7,11 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
- * Time      2017/9/1 上午12:26
+ * Time      2017/9/1
  * Author    JoanneGeng
  * File      TestDemo.java
  * Software  IntelliJ IDEA
- * 正则提取html标签中的element
+ * 姝ｅ垯鏇挎崲html鏍囩鎻愬彇element
  */
 public class TestDemo {
 
