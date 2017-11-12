@@ -10,7 +10,7 @@ public interface WeekEnum {
 
     enum Week{
 
-        Mon("Mon", "周一"),
+        MON("Mon", "周一"),
         SUN("Sun","周日")
 
 

@@ -62,7 +62,7 @@ public class TestCalendar {
             if (stringSet.isEmpty()) {
                 lDate.add(calBegin.getTime()); continue;
             }
-            if (stringSet.contains(WeekEnum.Week.Mon.getCode())
+            if (stringSet.contains(WeekEnum.Week.MON.getCode())
                     && calBegin.get(Calendar.DAY_OF_WEEK) == Calendar.MONDAY) {
                 lDate.add(calBegin.getTime()); continue;
             }
